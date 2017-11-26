@@ -251,8 +251,8 @@ if(isset($_POST['submit'])){
       
       <section class="two-thirds">
         <div class="text-div">
-        <p class="sub-label">Patricia Okrasinski Heffner</p>
-        <p class="sub-label">Owner, Oh Eleven</p>
+        <p class="mid-size">Patricia Okrasinski Heffner</p>
+        <p class="sub-label">Owner</p>
           <p>Patricia  grew up in Michigan, where she attended university and met her husband, Patrick. They were married September 2016 in Detroit, Michigan and have lived in Alexandria, Virginia for five years.</p>
           <p>She is a self-taught calligrapher. From early childhood, Patricia has been creating art in a variety of media. Her passion for lettering and calligraphy grew as she was planning her own wedding; she sourced unconventional materials, lettered and designed her own wedding calligraphy.</p>
           <p>By day, Patricia is a software engineer. She started Oh Eleven as a creative outlet/passion project, to share her lettering and design aesthetic with others. In her dream life, she would commute to her (backyard) art studio with a dog in tow. </p>
@@ -273,7 +273,7 @@ if(isset($_POST['submit'])){
           <form class="form-container small" action="https://oheleven.us17.list-manage.com/subscribe/post?u=db2f7a6b975a49e17ec26e28f&amp;id=5b4da57349" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
             
-            <div style="width: 25%; margin: 0 auto">
+            <div style="width: 25%; min-width: 230px; margin: 0 auto">
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
 
             <input type="text" value="" name="FNAME" class="email" id="mce-FNAME" placeholder="first name">

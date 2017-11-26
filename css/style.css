@@ -289,7 +289,8 @@ section .sub-head {
   padding: 0em;
   margin: 0em;
 }
-section .sub-label {
+section .sub-label,
+section .mid-size {
   font-size: 2em;
   font-weight: normal;
   color: #000;
@@ -298,6 +299,9 @@ section .sub-label {
   letter-spacing: 4px;
   padding: 0em;
   margin: 0em;
+}
+section .mid-size {
+  font-size: 3em;
 }
 .extra-branding-info p {
   color: primaryFont;
@@ -332,6 +336,14 @@ section .sub-label {
   }
   section .text-div .sub-head {
     font-size: 3em;
+  }
+  section .text-div .mid-size {
+    font-size: 2em;
+    text-align: center;
+  }
+  section .text-div .sub-label {
+    font-size: 1.5em;
+    text-align: center;
   }
   section .text-div p {
     font-size: 1em;
