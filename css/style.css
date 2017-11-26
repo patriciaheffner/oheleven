@@ -320,6 +320,7 @@ section .sub-label {
   .middle,
   .right {
     flex: 1 1 33%;
+    min-height: 450px;
   }
   .two-thirds {
     flex: 1 1 66%;
@@ -340,5 +341,10 @@ section .sub-label {
   }
   .brand-title p {
     font-size: 2em;
+  }
+  .poh-lighter {
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
   }
 }
