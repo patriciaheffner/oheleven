@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+  margin: 0;
+  font-family: 'Slabo 27px', sans-serif;
+}
+
+.wrapper-row {
+  display: block;
+}
+
+.left,
+.right {
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .wrapper-row {
+    display: flex;
+  }
+
+  .left,
+  .right {
+    flex: 1 1 50%;
+  }
+}
+.left-1 {
+  background-image: url(https://images.unsplash.com/photo-1473769819389-3b53abc20a57);
+  background-size: cover;
+  background-position: top center;
+}
+
+.right-1 {
+  background-image: url(https://images.unsplash.com/photo-1472646189317-418747480cd6);
+  background-size: cover;
+  background-position: top center;
+}
+
+.left-2 {
+  background-image: url(https://images.unsplash.com/photo-1474533410427-a23da4fd49d0);
+  background-size: cover;
+  background-position: top left;
+}
+
+.right-2 {
+  background-image: url(https://images.unsplash.com/photo-1474995033736-8d46413ad93d);
+  background-size: cover;
+  background-position: top center;
+}
+
+.left-3 {
+  background-image: url(https://images.unsplash.com/photo-1464750329548-977f9793ca3e);
+  background-size: cover;
+  background-position: top center;
+  filter: saturate(0);
+}
+
+.right-3 {
+  background-image: url(https://images.unsplash.com/photo-1471829698930-3649e02a48bd);
+  background-size: cover;
+  background-position: top center;
+  filter: saturate(0);
+}
+
+.left-4 {
+  background-image: url(https://images.unsplash.com/photo-1471857497812-f841e2ca8dfc);
+  background-size: cover;
+  background-position: top center;
+  filter: saturate(0);
+}
+
+.right-4 {
+  background-image: url(https://images.unsplash.com/photo-1441476757414-ce2e85359f06);
+  background-size: cover;
+  background-position: top right;
+  filter: saturate(0);
+}
+
+.branding {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+}
+
+.name {
+  background: white;
+  padding: 10px 0;
+}
+.name h1,
+.name p {
+  // text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.extra-branding-info p {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 300px;
+}
+
+.social {
+  font-size: 2em;
+}
+
+.email {
+  font-size: 1.3em;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "oheleven",
+  "version": "1.0.0",
+  "description": "Oh Eleven Creative site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patricia Heffner",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-less": "^3.3.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

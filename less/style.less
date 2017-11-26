@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@grey: #b3b3b3;
+@plum: #320f38;
+@emerald: #082618;
+@primaryFont: #000;
+@background: #f0f0f0;
+@secondaryDark: #000;
+@headerBackground: #fff;
+@headerFontColor: #000;
+@navBar: #fff;
+@white: #FFF;
+@black: #000;
+@formError: #ff7272;
+
+@font-face {
+  font-family: "Voga";
+  font-weight: normal;
+  src: url('../assets/Voga-Medium.ttf');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background: @white;
+  color: @primaryFont;
+}
+
+header {
+  background: @headerBackground;
+  color: @headerFontColor;
+  padding: 2em;
+
+}
+
+.form-container {
+  &.small {
+    input, textarea {
+      width: 25%;
+      min-width: 175px;
+      margin-bottom: 1em;
+    }
+  }
+  input, textarea {
+    width: 55%;
+    margin-left: 10px;
+    border: 1px solid #d4d4d4;
+
+    &#submit,
+    &#mc-embedded-subscribe {
+      font-size: 1.5em;
+      min-width: 175px;
+      background: white;
+      letter-spacing: 4px;
+      padding: 0.5em;
+      font-family: 'Voga', sans-serif;
+      text-transform: uppercase;
+      font-weight: normal;
+
+      &:hover {
+        background: @grey;
+        color: @white;
+        cursor: pointer;
+      }
+    }
+    
+  }
+  label {
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    width: 40%;
+  }
+  div {
+    margin-bottom: 15px;
+  }
+}
+
+
+.text-danger {
+  display: none;
+  color: @formError;
+  font-size: 0.7em;
+  margin: 0em;
+  padding: 0em;
+}
+
+.text-err {
+  color: @formError;
+  font-size: 0.7em;
+}
+#locVal {
+  display: none;
+}
+nav {
+  background-color: @navBar;
+  display: block;
+
+  
+  ul {
+    margin: 0;
+    height: 2em;
+    float: left;
+    
+    li {
+      display: inline-block;
+      
+      a {
+          color: @white;
+          display: inline-block;
+          margin-right: 5px;
+          padding: 1.25em;
+          font-size: 0.7em;
+          text-decoration: none;
+          transition: background-color 1s;
+        
+        &:hover {
+          background-color: #3a3a3a;
+          color: @white;
+        }
+
+      }
+    }
+  }
+}
+
+#menu {
+  color: transparent;
+  padding: 0em 1em;
+
+  &.docked {
+   width: 100%;
+   background: transparent;
+   font-size: 2em;
+   color: @white;
+  }
+}
+
+.oec-banner {
+  background-image: url(../dist/images/oec-banner.png);
+  background-size: contain;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oec-leaves {
+  background-image: url(../dist/images/oec-leaves.png);
+  background-size: contain;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.voga-logo {
+  font-family: 'Voga', sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  float: left;
+  text-transform: lowercase;
+}
+
+
+.name h1,
+.name p {
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.name {
+  text-align: right;
+  background-color: rgba(255,255,255,0.8);
+  padding: 0.5em;
+  h1 {
+    font-family: 'Voga', sans-serif;
+    font-weight: normal;
+  }
+}
+.wrapper-row {
+  display: block;
+  clear: both;
+}
+
+.left,
+.middle,
+.right {
+  height: 100vh;
+}
+
+.bio {
+  height: 200px;
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+}
+
+.voga-font {
+  font-family: 'Voga', sans-serif;
+  font-weight: normal;
+}
+
+
+
+.photo-credit {
+  align-self: flex-end;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 0.7em;
+  color: @white;
+  padding: 1em;
+
+  &.dark {
+    color: @black;
+  }
+}
+
+.images {
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  background: @background;
+}
+
+// Grosse Pointe Shoot
+.gp-1 {
+  background-image: url(../dist/images/gp-1.jpg);
+}
+.gp-3 {
+  background-image: url(../dist/images/gp-3.jpg);
+}
+.gp-5 {
+  background-image: url(../dist/images/gp-5.jpg);
+}
+.gp-6 {
+  background-image: url(../dist/images/gp-6.jpg);
+  background-position: bottom;
+}
+.gp-7 {
+  background-image: url(../dist/images/gp-7.jpg);
+}
+.gp-8 {
+  background-image: url(../dist/images/gp-8.jpg);
+}
+.gp-9 {
+  background-image: url(../dist/images/gp-9.jpg);
+}
+.gp-12 {
+  background-image: url(../dist/images/gp-12.jpg);
+}
+.gp-13 {
+  background-image: url(../dist/images/gp-13.jpg);
+}
+.gp-14 {
+  background-image: url(../dist/images/gp-14.jpg);
+}
+
+// packard proving grounds
+.pp-1 {
+  background-image: url(../dist/images/pp-1.jpg);
+}
+.pp-2 {
+  background-image: url(../dist/images/pp-2.jpg);
+}
+.pp-3 {
+  background-image: url(../dist/images/pp-3.jpg);
+}
+.pp-7 {
+  background-image: url(../dist/images/pp-7.jpg);
+}
+.pp-8 {
+  background-image: url(../dist/images/pp-8.jpg);
+}
+.pp-9 {
+  background-image: url(../dist/images/pp-9.jpg);
+}
+.pp-11 {
+  background-image: url(../dist/images/pp-11.jpg);
+}
+
+// .poh-img {
+//   background-image: url(../dist/images/poh-img.png);
+//   background-position: top;
+// }
+
+.poh-lighter {
+  background-image: url(../dist/images/poh-lighter.jpg);
+  background-position: top;
+}
+
+.brand-title {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+
+  h1 {
+    font-size: 6em;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Voga', serif;
+  }
+  p {
+    font-size: 2em;
+  }
+}
+
+section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 0.5em;
+
+  div {
+    width: 100%;
+  }
+
+  &.alt-color {
+    background: @primaryFont;
+    color: @grey;
+  
+    .sub-head {
+      color: @secondaryDark;
+    }
+  }
+
+  .text-div {
+    padding: 2.5em;
+
+    a {
+      color: @grey;
+      text-decoration: none;
+    }
+  }
+
+  .right-text {
+    text-align: right;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .sub-head {
+    font-size: 3.5em;
+    font-weight: normal;
+    color: @secondaryDark;
+    text-transform: uppercase;
+    font-family: 'Voga', serif;
+    letter-spacing: 4px;
+    padding: 0em;
+    margin: 0em;
+  }
+  .sub-label {
+    font-size: 2em;
+    font-weight: normal;
+    color: @secondaryDark;
+    text-transform: uppercase;
+    font-family: 'Voga', serif;
+    letter-spacing: 4px;
+    padding: 0em;
+    margin: 0em;
+  }
+}
+
+.extra-branding-info p {
+  color: primaryFont;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.email {
+  font-size: 1em;
+  a {
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (min-width: 780px) {
+  .wrapper-row {
+    display: flex;
+
+  }
+
+  .left,
+  .middle,
+  .right {
+    flex: 1 1 33%;
+    min-height: 450px;
+  }
+
+  .two-thirds {
+    flex: 1 1 66%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .wrapper-row {
+    display: block;
+  }
+  
+  section {
+    .text-div {
+      .sub-head {
+        font-size: 3em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .brand-title {
+    h1 {
+      font-size: 12em;
+    }
+    p {
+      font-size: 2em;
+    }
+  }
+}
+
+
+
