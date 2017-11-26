@@ -49,11 +49,16 @@
 
       if (holderValue) {
         return false
-      } else {
-        $('form#contactForm').hide();
+      } 
+      else {
 
         $('#successMsg').html('<p>Thank you! Your inquiry has been submitted.</p>');
-        event.preventDefault();
+        // return false
+        $("#contactForm").submit(function() {
+          $.post($(this).attr("action"), $(this).serialize());
+
+          return false;
+        })
       }
       
     })

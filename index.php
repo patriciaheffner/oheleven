@@ -38,6 +38,7 @@ if(isset($_POST['submit'])){
       $email= '';
       $message='';
       $secCheck='';
+      
     } else {
       $result = '<div>Mail was not sent</div>';
     }
@@ -162,8 +163,9 @@ if(isset($_POST['submit'])){
       <div class="text-div right-text">
           <p class="sub-head">contact</p>
           <p>Have a project in mind? We love using new materials, as well as experimenting with techniques &amp; styles. Please submit the form below and we will be in touch with you shortly. </p>
-    <div id="successMsg" />
-    <form method="post" id="contactForm" action="index.php" class="form-container">
+    
+    <iframe name="bananagrams" style="display:none;"></iframe>
+    <form method="post" id="contactForm" action="index.php" class="form-container" target="bananagrams">
       <div>
         <label for="name">Name</label>
         <input
@@ -210,6 +212,7 @@ if(isset($_POST['submit'])){
         <div><?php echo $result; ?></div>
       </div>
       <div id='locVal'><?php echo ($_SESSION["a"] + $_SESSION["b"]); ?></div>
+      <div id="successMsg" ></div>
       <div><input type="submit" value="Send" id="submit" name="submit"/></div>
   </form>
   </section>
@@ -270,7 +273,13 @@ if(isset($_POST['submit'])){
           <form class="form-container small" action="https://oheleven.us17.list-manage.com/subscribe/post?u=db2f7a6b975a49e17ec26e28f&amp;id=5b4da57349" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
             
+            <div style="width: 25%; margin: 0 auto">
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+
+            <input type="text" value="" name="FNAME" class="email" id="mce-FNAME" placeholder="first name">
+            <input type="text" value="" name="LNAME" class="email" id="mce-LNAME" placeholder="last name">
+          </div>
+  
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_db2f7a6b975a49e17ec26e28f_5b4da57349" tabindex="-1" value=""></div>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
               </div>
