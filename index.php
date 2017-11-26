@@ -120,7 +120,7 @@ if(isset($_POST['submit'])){
     <section id="aboutTarget" class="right">
       <div class="text-div right-text">
         <p class="sub-head">about</p>
-        <p>Oh Eleven is a creative design studio focused on making for the individual. Each and every piece, down to each written letter, is designed specifically and thoughtfully to the client.<br/><br/> We believe in crafting by hand &amp; using the best quality materials to tell your story.</p>
+        <p>Oh Eleven is a creative design studio focused on the individual. Each and every piece, down to each written letter, is designed specifically and thoughtfully for the client.<br/><br/> We believe in crafting by hand &amp; using the best quality materials to tell your story.</p>
     </div>
     </section>
   </div>
@@ -253,10 +253,10 @@ if(isset($_POST['submit'])){
         <div class="text-div">
         <p class="mid-size">Patricia Okrasinski Heffner</p>
         <p class="sub-label">Owner</p>
-          <p>Patricia  grew up in Michigan, where she attended university and met her husband, Patrick. They were married September 2016 in Detroit, Michigan and have lived in Alexandria, Virginia for five years.</p>
-          <p>She is a self-taught calligrapher. From early childhood, Patricia has been creating art in a variety of media. Her passion for lettering and calligraphy grew as she was planning her own wedding; she sourced unconventional materials, lettered and designed her own wedding calligraphy.</p>
-          <p>By day, Patricia is a software engineer. She started Oh Eleven as a creative outlet/passion project, to share her lettering and design aesthetic with others. In her dream life, she would commute to her (backyard) art studio with a dog in tow. </p>
-
+          
+          <p>Patricia is a self-taught calligrapher. From early childhood, Patricia has been creating art in a variety of media. Her passion for lettering and calligraphy grew as she was planning her own wedding; she sourced unconventional materials, lettered, and designed her own wedding calligraphy.</p>
+          <p>By day, Patricia is a software engineer. She started Oh Eleven as a creative outlet/passion project, to share her lettering and design aesthetic with others.</p>
+          <p>She grew up in Michigan, where she attended university and met her husband, Patrick. They were married September 2016 in Detroit, Michigan and have lived in Alexandria, Virginia for five years.</p>
           <p>She has a ridiculous love for: dogs, rainy days, nail polish, paper / stationery, antique jewelry, pens, ink, watercolor / goauche, midcentury modern, art deco, minimalist design</p>
 
         </div>
